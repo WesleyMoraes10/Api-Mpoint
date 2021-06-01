@@ -8,8 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.*;
 
-//@Entity
-//@Data
+@Entity
+@Data
 public class tblusuario {
 
     @Id

@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/TUSL_ColetaDado")
+@RequestMapping("GRPoint/api/TUSL_ColetaDado")
 public class tblcoletadadocontroller {
     @Autowired
     private tblcoletadadoservice service = new tblcoletadadoservice();

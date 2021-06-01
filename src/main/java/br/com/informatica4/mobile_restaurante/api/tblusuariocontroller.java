@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/TUSL_Usuario")
+@RequestMapping("GRPoint/api/TUSL_Usuario")
 public class tblusuariocontroller {
     @Autowired
     private tblusuarioservice service = new tblusuarioservice();

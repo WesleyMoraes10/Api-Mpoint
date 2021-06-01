@@ -13,7 +13,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/TUSL_Celular")
+@RequestMapping("GRPoint/api/TUSL_Celular")
 public class tblcelularcontroller {
 
     @Autowired

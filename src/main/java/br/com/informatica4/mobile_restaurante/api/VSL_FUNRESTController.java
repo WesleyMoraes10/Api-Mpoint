@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/TUSL_FunRest")
+@RequestMapping("GRPoint/api/TUSL_FunRest")
 public class VSL_FUNRESTController {
     @Autowired
     private VSLService service = new VSLService();

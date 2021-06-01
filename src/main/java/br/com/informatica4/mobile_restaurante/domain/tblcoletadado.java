@@ -5,8 +5,8 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
-//@Entity
-//@Data
+@Entity
+@Data
 public class tblcoletadado {
 
     @Id

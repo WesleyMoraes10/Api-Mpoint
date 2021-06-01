@@ -4,8 +4,8 @@ import lombok.Data;
 
 import javax.persistence.*;
 
-//@Entity
-//@Data
+@Entity
+@Data
 public class VSL_FUNREST {
 
     @Id

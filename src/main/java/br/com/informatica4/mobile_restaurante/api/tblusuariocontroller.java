@@ -4,6 +4,7 @@ import br.com.informatica4.mobile_restaurante.domain.Service.tblusuarioservice;
 import br.com.informatica4.mobile_restaurante.domain.tblusuario;
 import br.com.informatica4.mobile_restaurante.domain.dto.tblusuarioDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;

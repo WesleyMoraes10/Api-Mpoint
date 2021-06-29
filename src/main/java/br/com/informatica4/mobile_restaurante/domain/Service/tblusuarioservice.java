@@ -26,4 +26,6 @@ public class tblusuarioservice {
         Assert.isNull(tblusuario.getId(), "Não foi possivel inserir");
         return tblusuarioDTO.create(rep.save(tblusuario));
     }
+
+
 }
